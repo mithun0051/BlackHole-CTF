@@ -2,13 +2,11 @@
 
 ## Screenshots
 
-| Login Page | Upload Portal | Root Access |
+| Login Page | Upload Portal | Honeytrap |
 |------------|---------------|-------------|
-| ![Login](screenshots/login.png) | ![Upload](screenshots/upload.png) | ![Root](screenshots/root.png) |
+| ![Login](screenshots/login.png) | ![Upload](screenshots/upload.png) | ![Root](screenshots/honeypot.png) |
 
-> Add your screenshots in the `screenshots/` folder
 
----
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge)
 ![OS](https://img.shields.io/badge/OS-Debian%2012-red?style=for-the-badge)
 ![Type](https://img.shields.io/badge/Type-Boot2Root-blue?style=for-the-badge)
@@ -26,7 +24,15 @@ virtual hosts, exposed git credentials, a file upload vulnerability, and a steal
 internal service only reachable via SSH tunneling — all chained together to reach root.
 
 ---
+## 📄 Full Report
 
+Complete development report including system architecture, source code,
+full walkthrough, and screenshots:
+
+👉 **[View CTF Report (PDF)](Devlopment-Report/CTF_REPORT.pdf)**
+
+Warning: The report branch contains full spoilers. Only view it if you're completely stuck or have already completed the machine.
+---
 ## 📥 Download
 
 | Platform | Link |
@@ -158,16 +164,6 @@ http://blackhole.local
 | Git | Hidden `.git` directory with leaked credentials |
 
 ---
-
-## 📄 Full Report
-
-Complete development report including system architecture, source code,
-full walkthrough, and screenshots:
-
-👉 **[View CTF Report (PDF)](./CTF_REPORT.pdf)**
-
----
-
 ## 🚩 Flags
 
 | Flag | Location | Preview |
